@@ -404,9 +404,11 @@ p:last-child {
 }
 
 .orange-text {
-  color: #A9B388;
+  color: #FFE17B;
 }
-
+.carrot-text {
+  color: orangered;
+}
 .blue-bg {
   background-color: #162133;
 }
@@ -445,6 +447,10 @@ a.read-more-btn:hover {
 
 a.boxed-btn, a.bordered-btn, a.cart-btn {
   border-radius: 50px;
+
+}
+#try{
+  background-color: #FFE17B;
 }
 
 .section-title h3 {
@@ -616,6 +622,7 @@ nav.main-menu > ul li:last-child {
 .site-logo {
   float: left;
   max-width: 150px;
+  padding-top: 0px;
 }
 
 ul.sub-menu li:last-child {
@@ -680,6 +687,7 @@ nav.mean-nav > ul > li:first-child > a {
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
   color: #86A789;
+
 }
 
 nav.main-menu ul ul.sub-menu li {
@@ -1178,9 +1186,25 @@ input[type="submit"] {
   transition: 0.3s;
   border-radius: 50px !important;
 }
+select{
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 50px !important;
+}
+select:hover{
+  background-color: #D2E3C8;
+  color: #A9B388;
+}
+select,#diettype{
+  width: 49%;
+}
+select,#country{
+  width:49%;
+}
 
 input[type="submit"]:hover {
-  background-color: #86A789;
+  background-color: #D2E3C8;
   color: #A9B388;
 }
 
@@ -1369,6 +1393,7 @@ a.mobile-show.search-bar-icon:hover {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
 }
 
 .hero-text {
@@ -1468,8 +1493,23 @@ html, body {
   color: #000;
 }
 
+select{
+  background-color: #fff;
+  border-color: #86A789;
+  border: 2px;
+  color: #86A789;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: 2px;
+  cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 3px;
+
+}
+
 input[type="submit"] {
-  background-color: #A9B388;
+  background-color: #D2E3C8;
   color: #86A789;
   font-weight: 700;
   text-transform: uppercase;
@@ -1813,7 +1853,7 @@ span.comment-date {
 
 .comment-template form p input[type=text] {
   border: 1px solid #ddd;
-  width: 49%;
+  width: 100%;
   padding: 15px;
   border-radius: 5px;
   font-size: 15px;
@@ -2130,9 +2170,11 @@ a.video-play-btn {
 .shop-banner {
   position: relative;
   background-color: #f5f5f5;
-  background-image: url(../img/1.jpg);
+  background-image: url(../img/1.png);
   background-size: cover;
   padding: 110px 0px 115px;
+  width: 100%;
+  color: #FFE17B;
 }
 
 .shop-banner h3 {
@@ -2146,14 +2188,14 @@ a.video-play-btn {
   position: relative;
   font-size: 60px;
   font-weight: 700;
-  color: #A9B388;
+  color: #FFE17B;
 }
 
 .shop-banner .sale-percent span {
   position: relative;
   font-size: 24px;
   line-height: 1.1em;
-  color: #86A789;
+  color: #FFE17B;
   font-weight: 400;
   text-align: center;
   margin-right: 10px;
@@ -2254,6 +2296,9 @@ ul.social-link-team li a {
   border-radius: 50%;
   display: block;
   margin: 5px;
+}
+.problem{
+  width:100% !important;
 }
 
 /* -----------------------------------------------------------------------------
